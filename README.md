@@ -33,7 +33,9 @@ sudo apt install curl -y
 
 Ejecuta el siguiente comando:
 
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/Rudeboy4412/GOLIATH-Security-Protocol/main/install.sh)"
+```bash
+cd /opt/goliath && sudo ./venv/bin/python main.py
+```
 
 El instalador se encargará de:
 
